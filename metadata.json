@@ -1,0 +1,29 @@
+{
+  "fileFormatVersion": 1,
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 1,
+  "publishedDefaultPageName": "Googlesheet",
+  "unpublishedDefaultPageName": "Googlesheet",
+  "editModeTheme": {
+    "name": "Classic",
+    "isSystemTheme": true,
+    "deleted": false,
+    "policies": []
+  },
+  "publishedTheme": {
+    "name": "Classic",
+    "isSystemTheme": true,
+    "deleted": false,
+    "policies": []
+  },
+  "publishedLayoutmongoEscapedWidgets": {
+    "Mongo_Crud": [
+      "data_table"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Mongo_Crud": [
+      "data_table"
+    ]
+  }
+}
