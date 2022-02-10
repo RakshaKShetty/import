@@ -19,7 +19,7 @@
       "encodeParamsToggle": true,
       "body": "SELECT * FROM Jan10"
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],

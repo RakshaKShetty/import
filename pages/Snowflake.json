@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 822,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
@@ -24,11 +24,202 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "ID",
+                "NAME",
+                "AGE",
+                "ADDRESS",
+                "SALARY",
+                "LAST_LOGIN"
+              ],
+              "isVisibleDownload": true,
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+              "topRow": 1,
+              "bottomRow": 29,
+              "isSortable": true,
+              "parentRowSpace": 10,
+              "type": "TABLE_WIDGET",
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "animateLoading": true,
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.ID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.NAME.computedValue"
+                },
+                {
+                  "key": "primaryColumns.AGE.computedValue"
+                },
+                {
+                  "key": "primaryColumns.ADDRESS.computedValue"
+                },
+                {
+                  "key": "primaryColumns.SALARY.computedValue"
+                },
+                {
+                  "key": "primaryColumns.LAST_LOGIN.computedValue"
+                }
+              ],
+              "leftColumn": 0,
+              "primaryColumns": {
+                "ID": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "ID",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "ID",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.ID))}}"
+                },
+                "NAME": {
+                  "index": 1,
+                  "width": 150,
+                  "id": "NAME",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "NAME",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.NAME))}}"
+                },
+                "AGE": {
+                  "index": 2,
+                  "width": 150,
+                  "id": "AGE",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "AGE",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.AGE))}}"
+                },
+                "ADDRESS": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "ADDRESS",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "ADDRESS",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.ADDRESS))}}"
+                },
+                "SALARY": {
+                  "index": 4,
+                  "width": 150,
+                  "id": "SALARY",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "SALARY",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.SALARY))}}"
+                },
+                "LAST_LOGIN": {
+                  "index": 5,
+                  "width": 150,
+                  "id": "LAST_LOGIN",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "LAST_LOGIN",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.LAST_LOGIN))}}"
+                }
+              },
+              "delimiter": ",",
+              "key": "cb3325fljh",
+              "derivedColumns": {},
+              "rightColumn": 34,
+              "textSize": "PARAGRAPH",
+              "widgetId": "0o2wnmlp16",
+              "isVisibleFilters": true,
+              "tableData": "{{Query1.data}}",
+              "isVisible": true,
+              "label": "Data",
+              "searchKey": "",
+              "enableClientSideSearch": true,
+              "version": 3,
+              "totalRecordsCount": 0,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER",
+              "columnSizeMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              }
+            }
+          ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Snowflake_Query1",
+              "name": "Query1",
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "widgetNames": [
-          "MainContainer"
+          "MainContainer",
+          "Table1"
         ],
         "validOnPageLoadActions": true,
         "id": "Snowflake",
