@@ -5,10 +5,8 @@
   "unreadCommentThreads": 0,
   "color": "#D6D1F2",
   "icon": "camera",
-  "slug": "import-2",
+  "slug": "import",
   "evaluationVersion": 2,
-  "publishedModeThemeId": "61c57741db67aa7828fd7472",
-  "editModeThemeId": "61c57741db67aa7828fd7472",
   "createdAt": {
     "seconds": 1644486162,
     "nanos": 670000000
